@@ -15,7 +15,7 @@ Service to monitor the bank's vault entrances and entrance timings.
 - DEBUG (True or False)
 - ALLOWED_HOSTS
 
-1. Put `.env` file near `main.py`.
+1. Put `.env` file near `manage.py`.
 2. `.env` contains text data without quotes.
 
 
