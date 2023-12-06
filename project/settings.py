@@ -6,18 +6,18 @@ env.read_env()
 
 DATABASES = {
     'default': {
-        'ENGINE': env("DB_ENGINE"),
-        'HOST': env("DB_HOST"),
+        'ENGINE': env.str("DB_ENGINE"),
+        'HOST': env.str("DB_HOST"),
         'PORT': env.int("DB_PORT"),
-        'NAME': env("DB_NAME"),
-        'USER': env("DB_USER"),
-        'PASSWORD': env("DB_PASSWORD"),
+        'NAME': env.str("DB_NAME"),
+        'USER': env.str("DB_USER"),
+        'PASSWORD': env.str("DB_PASSWORD"),
     }
 }
 
 INSTALLED_APPS = ['datacenter']
 
-SECRET_KEY = env("SECRET_KEY")
+SECRET_KEY = env.str("SECRET_KEY")
 
 DEBUG = env.bool("DEBUG")
 
