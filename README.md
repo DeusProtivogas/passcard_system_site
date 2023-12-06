@@ -2,6 +2,23 @@
 
 Service to monitor the bank's vault entrances and entrance timings.
 
+
+### Environment variables
+- Database information
+  - ENGINE
+  - HOST
+  - PORT 
+  - NAME
+  - USER
+  - PASSWORD
+- SECRET_KEY
+- DEBUG (True or False)
+- ALLOWED_HOSTS
+
+1. Put `.env` file near `main.py`.
+2. `.env` contains text data without quotes.
+
+
 ### How to install
 
 
