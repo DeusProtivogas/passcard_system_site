@@ -5,15 +5,13 @@ Service to monitor the bank's vault entrances and entrance timings.
 
 ### Environment variables
 - Database information
-  - ENGINE
-  - HOST
-  - PORT 
-  - NAME
-  - USER
-  - PASSWORD
+  - DB_ENGINE
+  - DB_HOST
+  - DB_PORT
+  - DB_NAME
+  - DB_USER
+  - DB_PASSWORD
 - SECRET_KEY
-- DEBUG (True or False)
-- ALLOWED_HOSTS
 
 1. Put `.env` file near `manage.py`.
 2. `.env` contains text data without quotes.
